@@ -1,0 +1,9 @@
+#!/bin/bash
+
+INSTALLED=$HOME/tools/home
+ln -s $INSTALLED/vim $HOME/.vim
+ln -s $INSTALLED/vimrc $HOME/.vimrc
+ln -s $INSTALLED/gitconfig $HOME/.gitconfig
+ln -s $INSTALLED/gitignore $HOME/.gitignore
+
+git clone https://github.com/VundleVim/Vundle.vim.git $INSTALLED/vim/bundle/Vundle.vim 
