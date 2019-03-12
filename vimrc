@@ -20,5 +20,5 @@ set expandtab " Tab to space
 Plugin 'fatih/vim-go'
 Plugin 'scrooloose/nerdtree'
 
-autocmd vimenter * NERDTree " Открывать дерево каталогов при запуске VIM
+" autocmd vimenter * NERDTree " Открывать дерево каталогов при запуске VIM
 
